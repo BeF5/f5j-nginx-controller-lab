@@ -12,18 +12,3 @@ Lab 2 - NGINX Controller の冗長化
     このLabの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
     接続方法についてはこちらを参照ください。 :ref:`overview` 
 
-追加するNGINX Controllerのノードを作成する
-------------------------------------------
-
-#. jumphostのChromeで開かれているNGINX Controllerの管理画面を操作します。証明書エラーが表示されている場合には適切に操作をして画面を開いてください
-
-   .. image:: ../media/ControllerLogin.png
-      :width: 400
-
-#. もし開かれていない場合、Chromeブラウザを開いてください
-
-#. BookmarkからNGINX Controller UIにアクセスしてください
-
-   .. image:: ../media/ControllerBookmark.png
-      :width: 600
-
