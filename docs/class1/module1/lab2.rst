@@ -92,34 +92,3 @@ Lab 2 - NGINX Controller の冗長化
    .. image:: ./media/M1L2NodeJoinCommand.png
       :width: 800
 
-クラスタにインスタンスを追加するため install command を実行する
------------------------------------------------------------
-
-#. "controller-3" インスタンスにログインしてください。"PuTTY" を開き、保存済みのホストより **controller-3** を選択し、**Open** をクリックしてください
-
-   .. image:: ./media/M1L2puttyc3.png
-      :width: 400
-
-   .. IMPORTANT::
-      もし、Puttyがサーバのホスト鍵に関する警告を示した場合、接続のため **Yes** をクリックしてください
-      これは、ラボ環境の各ホストでユニークなhost keyを生成するため生じるものです
-
-#. | installerディレクトリより、install.sh コマンドを実行してください。そしてプロンプトの表示に対し "y" ("yes" の意味) を入力してください。
-   | 解凍するファイル名はディレクトリに保存しているものと一致している事を確認してください。異なる場合、適宜ファイル名を変更ください。
-   
-   .. IMPORTANT::
-      こちらの操作はubuntuユーザで行います。ファイルはホームディレクトリ/home/ubuntuに配置しております
-
-   .. code-block:: bash
-
-      $ tar zxvf controller-installer-3.20.0.tar.gz
-      $ cd controller-installer/
-      $ ./install.sh --join-key {{base64 encoded key}}
-
-   .. image:: ./media/M1L2InstallCommand.png
-      :width: 800
-
-#. コマンドの実行結果として、クラスタに追加が完了したことがノードに表示されます
-
-   .. image:: ./media/M1L2NodeJoinSuccess.png
-      :width: 300
