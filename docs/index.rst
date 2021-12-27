@@ -3,7 +3,7 @@
 F5 Labs - Index
 =======================
 
-ようこそ！
+ようこそ
 -------
 
 ようこそ、 |classbold| labへ
@@ -33,7 +33,7 @@ F5 Labs - Index
 Lab Topology
 ------------
 
-このラボ環境では主に以下のコンポーネントが実行されます：
+このラボ環境では主に以下のコンポーネントが実行されます
 
 - 3 X NGINX Controller Instances (v3.x)
 - 1 X Postgres Database Instance (NGINX Controllerで使用)
