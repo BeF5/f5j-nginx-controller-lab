@@ -65,30 +65,3 @@ Lab 2 - NGINX Controller の冗長化
 .. NOTE::
     "Nodes"として現在2つのNGINX Controller インスタンスが表示されています
     ( "controller-1" および "controller-2" に該当するノード)
-
-#. 画面右上の **Create Node** ボタンをクリックしてください
-
-   .. image:: ./media/M1L2CreateNodeButton.png
-      :width: 200
-
-#. ダイアログに従って進め、"controller-3" インスタンスを追加するため、"Name" と "Hostname または IP Address" を指定してください。**Save** ボタンをクリックしてください
-
-   +-------------------+-----------------------+
-   |        Field      |      Value            |
-   +===================+=======================+
-   |  Name             |  ``controller-3``     |
-   +-------------------+-----------------------+
-   |  Hostname or IP   |  ``10.1.1.10``        |
-   +-------------------+-----------------------+
-
-   .. image:: ./media/M1L2CreateNodeDialogue.png
-      :width: 800
-
-#. **View** にインストール手順が記載されています。インストールコマンドと "join key" をクリップボードにコピーしてください。 
-
-   .. image:: ./media/M1L2NodeViewButton.png
-      :width: 800
-
-   .. image:: ./media/M1L2NodeJoinCommand.png
-      :width: 800
-
