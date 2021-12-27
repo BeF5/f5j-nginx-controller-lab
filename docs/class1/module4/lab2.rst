@@ -102,5 +102,5 @@ Postmanを用いて、Component の Security Settings を更新する
     .. image:: ./media/PMTradingMainCASMonitoringVerifyComponent.png
 
 
-おめでとうございます！！ |classbold| ラボはこれで完了です。
+おめでとうございます！！ NGINX Controller Lab はこれで完了です。
 --------------------------------------------------------------------------------------------------------------------
