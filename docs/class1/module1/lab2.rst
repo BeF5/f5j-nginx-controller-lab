@@ -110,7 +110,7 @@ Lab 2 - NGINX Controller の冗長化
    .. IMPORTANT::
       こちらの操作はubuntuユーザで行います。ファイルはホームディレクトリ/home/ubuntuに配置しております
 
-   .. code-block:: bash
+
 
       $ tar zxvf controller-installer-3.20.0.tar.gz
       $ cd controller-installer/
@@ -148,7 +148,7 @@ View the results
 
 #. クラスタノードを表示します
 
-   .. code-block:: shell
+
 
       kubectl get nodes 
 
@@ -160,7 +160,7 @@ View the results
 
 #. デプロイされたポッドを確認する
 
-   .. code-block:: shell
+
 
       kubectl get pods -n nginx-controller -o wide
       
