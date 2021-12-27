@@ -6,7 +6,7 @@ F5 Labs - Index
 ようこそ
 -------
 
-ようこそ、 |classbold| labへ
+ようこそ、 NGINX Controller labへ
 
 
 はじめに
