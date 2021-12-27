@@ -110,7 +110,7 @@ Lab 2 - NGINX Controller の冗長化
    .. IMPORTANT::
       こちらの操作はubuntuユーザで行います。ファイルはホームディレクトリ/home/ubuntuに配置しております
 
-
+   .. code-block:: bash
 
       $ tar zxvf controller-installer-3.20.0.tar.gz
       $ cd controller-installer/
@@ -123,64 +123,3 @@ Lab 2 - NGINX Controller の冗長化
 
    .. image:: ./media/M1L2NodeJoinSuccess.png
       :width: 300
-
-View the results
-----------------
-
-#. Chromeを開き、**Cluster** の "Cluster Configuration" を確認してください
-
-   .. image:: ./media/M1L2NodesConfigured.png
-      :width: 800
-
-(Optional) Kubernetes Cluster の確認
-------------------------------------------
-
-もし、Kubernetes (k8s) について確認されたい場合、NGINX Controllerによって作成される k8s クラスタの情報を確認することが可能です
-
-#. 先程ログインした PuTTY の "controller-3" への接続を利用するか、新たにNGINX Controllerインスタンスのいずれか一つに接続してください
-
-   .. image:: ./media/M1L2puttyc1.png
-      :width: 400
-
-   .. IMPORTANT::
-      もし、Puttyがサーバのホスト鍵に関する警告を示した場合、接続のため **Yes** をクリックしてください
-      これは、ラボ環境の各ホストでユニークなhost keyを生成するため生じるものです
-
-#. クラスタノードを表示します
-
-
-
-      kubectl get nodes 
-
-   .. image:: ./media/M1L2Nodes.png
-      :width: 800
-
-   .. NOTE::
-      コマンドの出力結果として、k8s クラスタに3つのノードが存在することが確認できます
-
-#. デプロイされたポッドを確認する
-
-
-
-      kubectl get pods -n nginx-controller -o wide
-      
-   .. image:: ./media/M1L2K8s.png
-      :width: 1024
-
-   .. NOTE::
-      コマンドの出力結果として、NGINX Controllerが複数のPodを3つのノードに対してデプロイしていることが確認できます
-      ("NODE"カラムを確認ください)
-
-.. _Reference:
-
-追加情報
---------------------
-    "load balancer"設定は今後リリースされるNGINX Controllerにて設定可能となる予定です
-    追加の情報はラボの :ref:`Reference` を参照してください
-
-      
-将来リリースされるNGINX Controllerでは、API Gateway Kubernetes serviceを公開するために利用するfloating self-ipが "load balancer" によって作成される予定です。
-オンプレミス環境ではL2 Failoverをサポートする `MetalLB`_ の構成、クラウド環境では k8sの type  `LoadBalancer`_ を用いたクラウドネイティブな外部向けロードバランサー機能を利用する想定となります。
-
-.. _MetalLB: https://metallb.universe.tf/
-.. _LoadBalancer: https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer
