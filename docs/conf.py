@@ -8,7 +8,7 @@
 classname = "NGINX Controller: Application Delivery and Security (Lab)"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_repo = "https://github.com/nginxinc/nginx-controller-lab"
+github_repo = "https://github.com/BeF5/f5j-nginx-controller-lab"
 
 # OPTIONAL: Google Analytics
 # googleanalytics_id = 'UA-85156643-4'
