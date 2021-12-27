@@ -5,10 +5,10 @@
 # ------------
 #
 # REQUIRED: Your class/lab name
-classname = "F5 Networks Japan Technical Information"
+classname = "NGINX Controller Lab Guide"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_url = "https://github.com/BeF5/f5j-tech-info"
+github_url = "https://github.com/BeF5/f5j-nginx-controller-lab"
 
 git_branch_name = 'master'
 
