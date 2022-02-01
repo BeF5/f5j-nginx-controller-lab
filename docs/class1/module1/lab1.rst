@@ -10,7 +10,7 @@ Lab 1 - Active Directory Authentication
     想定時間: 5分
 
 .. NOTE::
-    このLabの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
+    このラボの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
     接続方法についてはこちらを参照ください。 :ref:`overview` 
 
 Authentication Providersの設定を確認する

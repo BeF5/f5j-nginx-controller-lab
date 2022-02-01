@@ -8,7 +8,7 @@ Lab 3 - ADC によるより詳細なトラフィック制御機能(Programmabili
     想定時間: 10分
 
 .. NOTE::
-    このLabの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
+    このラボの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
     接続方法についてはこちらを参照ください。 :ref:`overview` 
 
 App Componentを開く

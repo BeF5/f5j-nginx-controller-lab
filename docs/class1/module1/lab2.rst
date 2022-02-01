@@ -9,7 +9,7 @@ Lab 2 - NGINX Controller の冗長化
     想定時間: 15分
 
 .. NOTE::
-    このLabの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
+    このラボの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
     接続方法についてはこちらを参照ください。 :ref:`overview` 
 
 追加するNGINX Controllerのノードを作成する
