@@ -265,7 +265,7 @@ Componentを作成する
    .. image:: ./media/M2L1CompDiag.png
       :width: 700
 
-#. **URIs** のセクションを開き、URIに ``/`` を指定します。**Match Method** は指定しないでください/
+#. **URIs** のセクションを開き、URIに ``/`` を指定します。**Match Method** は指定しないでください
 
    .. image:: ./media/M2L1CompURI.png
       :width: 700

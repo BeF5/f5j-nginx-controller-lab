@@ -70,7 +70,7 @@ URI Rewriteを設定する
       :width: 800
 
 .. NOTE::
-     The app's JSON response confirms that the request received was to ``path: "/example"``. 
+     アプリケーションの JSON の応答の内容で、リクエストが ``path: "/example"`` 宛となっていることを確認してください 
 
 #. NGINX Controllerで、"URI Rewrite"をコンポーネントに追加してください。これはシームレスにすべての "/example*" 宛のリクエストを "/modified*" へ変更します
    "Programmability" ダイアログの **Add URI Rewrites** をクリックしてください
@@ -78,10 +78,8 @@ URI Rewriteを設定する
    .. image:: ./media/M2L3AddRW.png
       :width: 600
 
-``http://echoapp.net/example``
-
-#. 操作を完了し、変更内容を反映するため、**Done** をクリックしてください。
-   NGINXの別に `rewrite`_ モジュールがあり、PCRE正規表現の記述を用いて、NGINX Controllerの設定変更を行います
+#. 表の内容に従ってパラメータを入力し、変更内容を反映するため、**Done** をクリックしてください。
+   NGINXの `rewrite`_ モジュールによるPCRE正規表現の記述を用いて、NGINX Controllerの設定変更を行います
 
    +-------------------------+---------------------------+
    |        Field            |      Value                |
