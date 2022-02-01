@@ -1,4 +1,4 @@
-Lab 1 - ADC で Caching を有効にする
+Lab 1 - GUI で Caching を設定する
 ######################################################
 
 このラボのゴールは、現在NGINX Controllerで利用可能な "Caching" 機能を確認します。
@@ -77,7 +77,7 @@ Caching を設定する
 #. "Enable Caching" を有効にし、パラメータを入力します。
 
    .. image:: ./media/M5L1cache.png
-      :width: 200
+      :width: 600
 
 #. 以下の通り項目を入力してください
 
@@ -90,7 +90,7 @@ Caching を設定する
    +-------------------------+------------------------+
 
    .. image:: ./media/M5L1cache2.png
-      :width: 200
+      :width: 600
 
 #. そのまま画面を下にスクロールし、DISK STOREの内容を以下の通り項目を入力してください
 
@@ -109,7 +109,7 @@ Caching を設定する
    +-------------------------+------------------------+
 
    .. image:: ./media/M5L1cache3.png
-      :width: 200
+      :width: 600
 
 #. 左のメニューから ``Programmability`` を開きます。 ``Response Header Modification`` に以下の通り追加します
 
@@ -124,7 +124,7 @@ Caching を設定する
    +-------------------------+----------------------------+
 
    .. image:: ./media/M5L1cache4.png
-      :width: 200
+      :width: 600
 
 #. 左のメニューから ``Snippets`` を開きます。 ``URL Snippets`` に以下の通り追加します
 
@@ -134,12 +134,12 @@ Caching を設定する
      proxy_ignore_headers Set-Cookie;
 
    .. image:: ./media/M5L1cache5.png
-      :width: 200
+      :width: 600
 
 #. 画面右上の ``Submit`` をクリックしてください。設定が完了すると以下のようにフォルダが生成されます
 
    .. image:: ./media/M5L1cache6.png
-      :width: 200
+      :width: 600
 
    .. code-block:: bash
    
@@ -153,25 +153,25 @@ Caching を設定する
 #. Chromeブラウザを開き、 ``Secret Tab (New Incognito Window)`` を開いてください。
 
    .. image:: ./media/M5L1chrome.png
-      :width: 200
+      :width: 600
 
 #. ブラウザ上で右クリックメニューを開き ``開発者モード(Inspect)`` を開き、 ``Network`` タブに移動してください。
 
    .. image:: ./media/M5L1chrome2.png
-      :width: 200
+      :width: 600
 
    .. image:: ./media/M5L1chrome3.png
-      :width: 200
+      :width: 600
 
 #. | キャッシュを生成するため、 ``http://trading.acmefinancial.net/`` へアクセスしてください。
    | 接続の結果から、キャッシュが生成されたか Response Header の情報から確認します。
    | ``section-1-bg.jpg`` を選択し、 ``Response Headers`` の ``X-Cache-Status`` の内容を確認してください
 
    .. image:: ./media/M5L1cacherequest1.png
-      :width: 200
+      :width: 600
 
 #. | 一旦 ``Secret Tab`` を閉じ、上記手順を参考に再度 ``Secret Tab`` で ``http://trading.acmefinancial.net/`` へアクセスしてください。
    | ``section-1-bg.jpg`` を選択し、 ``Response Headers`` の ``X-Cache-Status`` の内容を確認してください
 
    .. image:: ./media/M5L1cacherequest2.png
-      :width: 200
+      :width: 600

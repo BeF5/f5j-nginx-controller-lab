@@ -1,4 +1,4 @@
-Module 6 - Application Security
+Module 6 - Snippets
 ===============================
 
 このセクションでは、NGINX Controller v3.22 で追加された snippets の機能について確認します。こちらを利用し自由に設定を追加し、またキャッシュサーバとして NGINX を設定することが可能です。
