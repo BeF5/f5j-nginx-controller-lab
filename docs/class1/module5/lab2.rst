@@ -52,7 +52,7 @@ App Componentを開く
     .. image:: ./media/TradingMainCASApp.png
         :width: 600
 
-#. "Trading Main Component" を選択し、設定を変更してください
+#. "Trading Main Component" を開いてください
 
     .. image:: ./media/M5L2TradingMainCASComponent.png
         :width: 600
