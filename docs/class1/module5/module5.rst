@@ -1,4 +1,4 @@
-Module 5 - Application Security
+Module 5 - Caching
 ===============================
 
 このセクションでは、NGINX Controller v3.22 で追加された Caching の機能について確認します。
