@@ -7,7 +7,7 @@ Module 3 - Analytics
 | Lab 2：Controller App Security (CAS)ライセンスが有効な場合に、AppやWAFの分析情報について確認します
 
 .. IMPORTANT::
-   - Module 2 Lab 6 (:ref:`loadgen`) のLoad Genratorについて確認してください。このLabにより、統計情報を確認することが可能となります
+   Module 2 Lab 6 (:ref:`loadgen`) のLoad Genratorについて確認してください。このLabにより、統計情報を確認することが可能となります
 
 .. toctree::
    :maxdepth: 1
