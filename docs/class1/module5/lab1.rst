@@ -71,10 +71,10 @@ App Componentを開く
     .. image:: ./media/TradingMainCASComponent.png
         :width: 600
 
-Caching を設定する
+ADC に Caching を設定する
 ----
 
-#. "Enable Caching" を有効にし、パラメータを入力します。
+#. ``request_uri`` メニューを開き、"Enable Caching" を有効にしてください。表示された画面にパラメータを入力します。
 
    .. image:: ./media/M5L1cache.png
       :width: 600
@@ -136,11 +136,12 @@ Caching を設定する
    .. image:: ./media/M5L1cache5.png
       :width: 600
 
-#. 画面右上の ``Submit`` をクリックしてください。設定が完了すると以下のようにフォルダが生成されます
+#. 画面右上の ``Submit`` をクリックしてください。
 
    .. image:: ./media/M5L1cache6.png
       :width: 600
 
+#. 参考情報です。設定が完了すると以下のようにフォルダが生成されます。 **nginxplus-4** にて確認してください
    .. code-block:: bash
    
      $ sudo ls -l /tmp/cache/store1/*
@@ -153,7 +154,7 @@ Caching を設定する
 #. Chromeブラウザを開き、 ``Secret Tab (New Incognito Window)`` を開いてください。
 
    .. image:: ./media/M5L1chrome.png
-      :width: 600
+      :width: 400
 
 #. ブラウザ上で右クリックメニューを開き ``開発者モード(Inspect)`` を開き、 ``Network`` タブに移動してください。
 
@@ -175,3 +176,8 @@ Caching を設定する
 
    .. image:: ./media/M5L1cacherequest2.png
       :width: 600
+
+先程 ``MISS`` となっていたステータスが、 ``HIT`` となっています。これは ``MISS:キャッシュが存在しない状態`` であったため、NGINXが設定に従ってキャッシュファイルを生成し、その後のアクセスで ``HIT:正しく該当するキャッシュを応答した`` という状態を示します。
+
+GUIで状態を確認する
+----
