@@ -74,13 +74,13 @@ Gatewayを開き、Snippetを追加します
 
    - 設定追加画面
 
-     - .. image:: ../media/M6L1echoappgw-GatewaySnippet.png
+     - .. image:: ./media/M6L1echoappgw-GatewaySnippet.png
           :width: 600
 
 
 #. **Submit** をクリックし、操作を完了させてください
 
-     - .. image:: ../media/M6L1Submit.png
+     - .. image:: ./media/M6L1Submit.png
           :width: 600
 
 App Componentを開き、Snippetを追加します
@@ -138,7 +138,7 @@ App Componentを開き、Snippetを追加します
 
 #. **Submit** をクリックし、操作を完了させてください
 
-     - .. image:: ../media/M6L1Submit.png
+     - .. image:: ./media/M6L1Submit.png
           :width: 600
 
 CLIより、Snippet で追加した内容を確認します
