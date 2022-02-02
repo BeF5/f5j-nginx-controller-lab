@@ -173,11 +173,14 @@ ADC に Caching を設定する
 
 #. 左のメニューから ``Snippets`` を開きます。 ``URL Snippets`` に以下の通り追加します
 
-   .. code-block:: bash
-   
-     proxy_cache_valid any 1m;
-     proxy_ignore_headers Set-Cookie;
-
+   +-------------------------+----------------------------------------+
+   |        Field            |      Value                             |
+   +=========================+========================================+
+   |  URI Snippet            | | ``proxy_cache_valid any 1m;``        |
+   |  URI Snippet            | | ``proxy_ignore_headers Set-Cookie;`` |
+   +-------------------------+----------------------------------------+
+   |  Applicable URIs        | ``/``                                  |
+   +-------------------------+----------------------------------------+
 
    - 設定追加画面
 
