@@ -124,7 +124,7 @@ App Componentを開き、Snippetを追加します
    +------------------------------+----------------------------------------------------------------+
    |  Workload Group Snippet      | ``sticky cookie echo_cookie expires=3h domain=.$host path=/;`` |
    +------------------------------+----------------------------------------------------------------+
-   |  Applicable Workload Groups  | ``Echo Backend`` (自動的に Select Allもチェックされます)         |
+   |  Applicable Workload Groups  | ``Echo Backend`` (自動的に Select Allもチェックされます)       |
    +------------------------------+----------------------------------------------------------------+
 
    - 設定追加画面
