@@ -30,7 +30,7 @@ NGINX Plus にキャッシュを保存するディレクトリを作成する
 
 #. "nginxplus-3" インスタンスにログインしてください。"PuTTY" を開き、保存済みのホストより **nginxplus-3** を選択し、**Open** をクリックしてください
 
-   .. image:: ../module1/media/L3Putty.png
+   .. image:: ./media/M5L1Putty.png
       :width: 400
 
    .. IMPORTANT::
