@@ -10,6 +10,36 @@ Lab 1 - GUI で Snippets を設定する
     このラボの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
     接続方法についてはこちらを参照ください。 :ref:`overview` 
 
+
+Snippets について
+----
+
+Snippets はNGINX Controller ADCのGUI/APIで、通常のNGINX Configと同様に記述した設定を **そのまま** 対象のNGINX Plusに追加・反映する機能です。
+
+Snippets は5種類の設定項目があり、それぞれの設定に応じて **Gateway** や **Component** のメニューで設定を追加します。
+
+   +------------------------+--------------------------------------------+-----------+
+   |      Snippet           |    内容                                    | Endpoint  |
+   +========================+============================================+===========+
+   | httpSnippet            | 設定をHTTP Blockに追加します               | Gateway   |
+   +------------------------+--------------------------------------------+-----------+
+   | mainSnippet            | 設定をMain Blockに追加します               | Gateway   |
+   +------------------------+--------------------------------------------+-----------+
+   | streamSnippet          | 設定をStream Blockに追加します             | Gateway   |
+   +------------------------+--------------------------------------------+-----------+
+   | uriSnippets            | 設定を対象GatewayのServer Blockに追加します| Gateway   |
+   +------------------------+--------------------------------------------+-----------+
+   | uriSnippets            | | 設定を対象ComponentのServer Block        | Component |
+   |                        | | またはLocation Blockに追加します         |           |
+   +------------------------+--------------------------------------------+-----------+
+   | workloadGroupSnippets  | 設定をUpstream Blockに追加します           | Component |
+   +------------------------+--------------------------------------------+-----------+
+
+.. NOTE::
+    URI Snippets は TCP/UDP のコンポーネントでは動作しない場合があります
+
+その他 Snippets の詳細については `About Snippets <https://docs.nginx.com/nginx-controller/app-delivery/about-snippets/>`__ をご確認ください
+
 GUI を開きます
 ----
 
