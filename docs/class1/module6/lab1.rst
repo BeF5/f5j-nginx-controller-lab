@@ -46,17 +46,15 @@ Gatewayを開き、Snippetを追加します
 
 #. **echoappgw** を開いてください
 
-    .. image:: ./media/M6L1echoappgw.png
-        :width: 600
+   .. image:: ./media/M6L1echoappgw.png
+       :width: 600
 
 #. "Edit Config" をクリックし、設定画面に移動します
 
-    .. image:: ./media/M6L1echoappgw-Edit.png
-        :width: 600
+   .. image:: ./media/M6L1echoappgw-Edit.png
+       :width: 600
 
 #. "Additional" をクリックします。Config Snippets まで画面をスクロールし、Gateway で対応しているSnippetsに設定を追加します
-
-   - 追加パラメータ
 
    +-------------------------+--------------------------------------+
    |        Field            |      Value                           |
@@ -81,7 +79,7 @@ Gatewayを開き、Snippetを追加します
 #. **Submit** をクリックし、操作を完了させてください
 
      - .. image:: ./media/M6L1Submit.png
-          :width: 600
+          :width: 300
 
 App Componentを開き、Snippetを追加します
 ----
@@ -93,13 +91,13 @@ App Componentを開き、Snippetを追加します
 
 #. **echoapp** を開いてください
 
-    .. image:: ./media/M6L1echoapp.png
-        :width: 600
+   .. image:: ./media/M6L1echoapp.png
+       :width: 600
 
 #. **echoappcomponent** を開いてください
 
-    .. image:: ./media/M6L1echoappcomponent.png
-        :width: 600
+   .. image:: ./media/M6L1echoappcomponent.png
+       :width: 600
 
 #. "Edit Config" を選択してください
 
@@ -108,12 +106,10 @@ App Componentを開き、Snippetを追加します
 
 #. "Snippets" をクリックしてください。 "URI Snippets" 、 "Workload Group Snippets" の欄があります。各設定を追加するため、 **Add URI Snippet** 、 **Add Workload Group Snippet** をクリックしてください
 
-    .. image:: ./media/M6L1echoappcomponent-Snippets.png
-        :width: 600
+   .. image:: ./media/M6L1echoappcomponent-Snippets.png
+       :width: 600
 
 #. Component で対応しているSnippetsに設定を追加します。以下の内容を参考に設定を追加してください
-
-   - 追加パラメータ
 
    +------------------------------+----------------------------------------------------------------+
    |        Field                 |      Value                                                     |
@@ -139,7 +135,7 @@ App Componentを開き、Snippetを追加します
 #. **Submit** をクリックし、操作を完了させてください
 
      - .. image:: ./media/M6L1Submit.png
-          :width: 600
+          :width: 300
 
 CLIより、Snippet で追加した内容を確認します
 ----

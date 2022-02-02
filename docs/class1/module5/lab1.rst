@@ -90,15 +90,15 @@ App Componentを開く
 
 #. "Trading Application (CAS)" app を開いてください
 
-    .. image:: ./media/TradingMainCASApp.png
-        :width: 600
+   .. image:: ./media/TradingMainCASApp.png
+       :width: 600
 
 
 
 #. "Trading Main Component" を選択し、設定を変更してください
 
-    .. image:: ./media/TradingMainCASComponent.png
-        :width: 600
+   .. image:: ./media/TradingMainCASComponent.png
+       :width: 600
 
 
 
@@ -122,7 +122,7 @@ ADC に Caching を設定する
    |  Criteria Type          | ``PERCENTAGE``         |
    +-------------------------+------------------------+
 
-
+   - 設定追加画面
 
    .. image:: ./media/M5L1cache2.png
       :width: 600
@@ -145,7 +145,7 @@ ADC に Caching を設定する
    |  Is Default             | ``TRUE``               |
    +-------------------------+------------------------+
 
-
+   - 設定追加画面
 
    .. image:: ./media/M5L1cache3.png
       :width: 600
@@ -165,6 +165,7 @@ ADC に Caching を設定する
    +-------------------------+----------------------------+
 
 
+   - 設定追加画面
 
    .. image:: ./media/M5L1cache4.png
       :width: 600
@@ -178,6 +179,7 @@ ADC に Caching を設定する
      proxy_ignore_headers Set-Cookie;
 
 
+   - 設定追加画面
 
    .. image:: ./media/M5L1cache5.png
       :width: 600
