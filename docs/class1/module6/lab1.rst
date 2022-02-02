@@ -1,7 +1,9 @@
-Lab 2 - GUI で Caching のステータスを確認する
+Lab 1 - GUI で Snippets を設定する
 ######################################################
 
-このラボのゴールは、v3.22.0 から追加された機能 "Caching" のステータスの確認です。
+このラボのゴールは、現在NGINX Controllerで利用可能な "Caching" 機能を確認します。
+v3.22.0 から追加された機能でGUI/APIを使って設定を追加することが可能です。
+
 
 Cachingのステータスについて、 **App** や **Component** の単位で状況を確認いただけます。
 この項目では参考に、 **Component** で状態を確認した結果を表示します。
@@ -54,39 +56,3 @@ App Componentを開く
 
     .. image:: ./media/M5L2TradingMainCASComponent.png
         :width: 600
-
-
-GUIで状態を確認する
-----
-
-Lab1で確認した内容を参考に、ステータスをご確認ください
-
-#. | ``Overview`` をクリックし、 ``Caching Metrics`` のタブを開きます
-   | 各項目が表示されておりますので、適宜内容をご確認ください。
-   | 右上の項目から、対象となる時間等選択することが可能です。
-
-    .. image:: ./media/M5L2CacheMenu.png
-        :width: 600
-
-
-
-#. Cache Size
-
-    .. image:: ./media/M5L2CacheStatus1.png
-        :width: 600
-
-#. Cache Hit Responses
-
-    .. image:: ./media/M5L2CacheStatus2.png
-        :width: 600
-
-#. Cache Miss Responses
-
-    .. image:: ./media/M5L2CacheStatus3.png
-        :width: 600
-
-#. Cache State Responses
-
-    .. image:: ./media/M5L2CacheStatus4.png
-        :width: 600
-
