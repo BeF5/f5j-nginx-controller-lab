@@ -3,12 +3,8 @@ Lab 1 - GUI で Snippets を設定する
 
 このラボのゴールは、v3.22.0 から追加された機能 "Snippets" の設定と動作の確認です。
 
-
-Cachingのステータスについて、 **App** や **Component** の単位で状況を確認いただけます。
-この項目では参考に、 **Component** で状態を確認した結果を表示します。
-
 .. IMPORTANT::
-    想定時間: 5分
+    想定時間: 10分
 
 .. NOTE::
     このラボの手順はラボを実施する方がWindows jumphost -- ``jumphost-1`` から操作する手順を示しています。
@@ -45,19 +41,20 @@ Gatewayを開き、Snippetを追加します
 
 #. "Gatweay" を選択してください
 
-   .. image:: ../media/Services-Apps.png
+   .. image:: ./media/M5L1gateways.png
       :width: 200
 
 #. **echoappgw** を開いてください
 
-    .. image:: ./media/TradingMainCASApp.png
+    .. image:: ./media/M5L1echoappgw.png
         :width: 600
 
 #. "Edit Config" をクリックし、設定画面に移動します
 
-#. "Additional" をクリックし、Config Snippets まで画面をスクロールします
+    .. image:: ./media/M5L1echoappgw-Edit.png
+        :width: 600
 
-#. Gateway で対応しているSnippetsに設定を追加します。以下の内容を参考に設定を追加してください
+#. "Additional" をクリックします。Config Snippets まで画面をスクロールし、Gateway で対応しているSnippetsに設定を追加します
 
    - 追加パラメータ
 
@@ -76,13 +73,15 @@ Gatewayを開き、Snippetを追加します
    +-------------------------+--------------------------------------+
 
    - 設定追加画面
-     - .. image:: ../media/ControllerBookmark.png
+
+     - .. image:: ../media/M5L1echoappgw-GatewaySnippet.png
           :width: 600
-     - .. image:: ../media/ControllerBookmark.png
-          :width: 600
+
 
 #. **Submit** をクリックし、操作を完了させてください
 
+     - .. image:: ../media/M5L1Submit.png
+          :width: 600
 
 App Componentを開き、Snippetを追加します
 ----
@@ -92,16 +91,25 @@ App Componentを開き、Snippetを追加します
    .. image:: ../media/Services-Apps.png
       :width: 200
 
-#. "echoapp" を開いてください
+#. **echoapp** を開いてください
 
-    .. image:: ./media/TradingMainCASApp.png
+    .. image:: ./media/M5L1echoapp.png
         :width: 600
 
-#. "echoappcomponent" を開いてください
+#. **echoappcomponent** を開いてください
 
-    .. image:: ./media/M6L1TradingMainCASComponent.png
+    .. image:: ./media/M5L1echoappcomponent.png
         :width: 600
 
+#. "Edit Config" を選択してください
+
+   .. image:: ./media/M5L1echoappcomponent-EditConfig.png
+      :width: 400
+
+#. "Snippets" をクリックしてください。 "URI Snippets" 、 "Workload Group Snippets" の欄があります。各設定を追加するため、 **Add URI Snippet** 、 **Add Workload Group Snippet** をクリックしてください
+
+    .. image:: ./media/M5L1echoappcomponent-Snippets.png
+        :width: 600
 
 #. Component で対応しているSnippetsに設定を追加します。以下の内容を参考に設定を追加してください
 
@@ -120,14 +128,18 @@ App Componentを開き、Snippetを追加します
    +------------------------------+----------------------------------------------------------------+
 
    - 設定追加画面
-     - .. image:: ../media/ControllerBookmark.png
+
+     - .. image:: ./media/M5L1echoappcomponent-URISnippets.png
           :width: 600
-     - .. image:: ../media/ControllerBookmark.png
+   
+     - .. image:: ./media/M5L1echoappcomponent-WLSnippets.png
           :width: 600
 
 
 #. **Submit** をクリックし、操作を完了させてください
 
+     - .. image:: ../media/M5L1Submit.png
+          :width: 600
 
 CLIより、Snippet で追加した内容を確認します
 ----
