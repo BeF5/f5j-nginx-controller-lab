@@ -70,22 +70,22 @@ Lab1で確認した内容を参考に、ステータスをご確認ください
 
 
 
-#. Cache Size
+#. Cache Size: Cache のサイズ
 
     .. image:: ./media/M5L2CacheStatus1.png
         :width: 600
 
-#. Cache Hit Responses
+#. Cache Hit Responses: Cacheサーバが有効なCacheとして応答した数
 
     .. image:: ./media/M5L2CacheStatus2.png
         :width: 600
 
-#. Cache Miss Responses
+#. Cache Miss Responses: Cacheに該当するデータがなく、Originサーバからデータが取得された数。(このMissの後、キャッシュされる場合があります)
 
     .. image:: ./media/M5L2CacheStatus3.png
         :width: 600
 
-#. Cache State Responses
+#. Cache Stale Responses: Origina Serverが正しく応答せずStaleとなった数。proxy_cache_use_stale を設定した場合に有効となります
 
     .. image:: ./media/M5L2CacheStatus4.png
         :width: 600

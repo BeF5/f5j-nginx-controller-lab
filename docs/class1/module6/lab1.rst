@@ -108,8 +108,8 @@ Gatewayを開き、Snippetを追加します
 
 #. **Submit** をクリックし、操作を完了させてください
 
-     - .. image:: ./media/M6L1Submit.png
-          :width: 300
+   .. image:: ./media/M6L1Submit.png
+      :width: 300
 
 App Componentを開き、Snippetを追加します
 ----
@@ -164,8 +164,8 @@ App Componentを開き、Snippetを追加します
 
 #. **Submit** をクリックし、操作を完了させてください
 
-     - .. image:: ./media/M6L1Submit.png
-          :width: 300
+   .. image:: ./media/M6L1Submit.png
+      :width: 300
 
 CLIより、Snippet で追加した内容を確認します
 ----
@@ -233,7 +233,7 @@ CLIより、Snippet で追加した内容を確認します
     - Main Snippet で指定した内容は、38行目に設定されています
     - HTTP Snippet で指定した内容は、3行目に設定されています
     - Stream Snippet で指定した内容は、40行目に設定されています
-    - URI Snippet で指定した内容は、28行目、29行目の通り Applicable URIs で指定した erver_name と listen port に該当する Server Block で有効になっており、30行目で許可アドレスが設定されています
+    - URI Snippet で指定した内容は、28行目、29行目の通り Applicable URIs で指定した server_name と listen port に該当する Server Block で有効になっており、30行目で許可アドレスが設定されています
 
 - Component Snippet
     - URI Snippet で指定した内容は、Componentの対象となる、location / 内となる 25行目、32行目に設定されています
